@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            font-size: 30px;
+            border-radius: 10px;
+        }
+        input{
+            font-size: 30px;
+            border-radius: 10px;
+            row-gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align: center; margin: 20px;">
+        <input type="text" id="searchBox" placeholder="Enter Food Name">
+        <button onclick="searchFood()">Search</button>
+    </div>
+    <script>
+        function searchFood(){
+            let food=document.getElementById("searchBox").value.toLowerCase();
+            if(food=="tea"){
+                window.location.href="tea.html";
+            }
+            else if(food=="coffee"){
+                window.location.href="coffee.html";
+            }
+            else if(food=="idali"){
+                window.location.href="idali.html";
+            }
+            else if(food=="dosa"){
+                window.location.href="dosa.html";
+            }
+            else if(food=="vegetarian"){
+                window.location.href="vegetarian.html";
+            }
+            else if(food=="ice cream"){
+                window.location.href="icecream.html";
+            }
+            else if(food=="juice"){
+                window.location.href="juice.html";
+            }
+            else if(food=="curd rice"){
+                window.location.href="curd.html";
+            }
+            else if(food=="mutton"){
+                window.location.href="mutton.html";
+            }
+            else if(food=="chicken biriyani"){
+                window.location.href="chickenbiriyani.html";
+            }
+            else{
+                alert("Food Item Not Found");
+            }
+        }
+    </script>
+</body>
+</html>

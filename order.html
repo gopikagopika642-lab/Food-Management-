@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Your Order</title>
+        <style>
+            img{
+                border-radius: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Your Order</h1>
+        <img id="foodImage" width="200">
+        <h2 id="food"></h2>
+        <h2 id="price"></h2>
+        <button onclick="placeOrder()">Place Order</button>
+        <script>
+            document.getElementById("food").innerHTML="Food : "+localStorage.getItem("foodName");
+            document.getElementById("price").innerHTML="Price : "+localStorage.getItem("price");
+            document.getElementById("foodImage").src=localStorage.getItem("image");
+            function placeOrder(){
+                alert("Order Placed Successfully");
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,260 @@
+.head {
+    width: auto;
+    height: 100px;
+    background: lightblue;
+    display: grid;
+    grid-template-columns: auto 500px 600px;
+    align-items: center;
+}
+.head img {
+    width: 100px;
+    height: 100px;
+    margin-top: -1px;
+    border-radius: 500px;
+    object-fit: cover;
+}
+.head ul {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+.head a {
+    text-decoration: none;
+    color: darkmagenta;
+}
+.head a:hover {
+    transition: 0.5s;
+    color: chartreuse;
+}
+.head src {
+    width: 50px;
+    height: 50px;
+}
+body{
+    background: lightpink;
+}
+.sec1 {
+    width: auto;
+    height: 600px;
+}
+.f1 img{
+    width: 1330px;
+    height: 600px;
+}
+.sec2 {
+    width: auto;
+    height: 400px;
+    border-radius: 100px;
+    justify-items: center;
+}
+.f2 {
+    display: flex;
+    gap: 100px;
+}
+.f2 img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-top: -1px;
+    border-radius: 50px;
+}
+.f2 a {
+    text-decoration: none;
+    color: darkcyan;
+}
+.f2 a:hover {
+    transition: 0.5s;
+    color: red;
+}
+.f8 {
+    display: flex;
+    gap: 100px;
+}
+.f8 img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-top: -1px;
+    border-radius: 50px;
+}
+.f8 a {
+    text-decoration: none;
+    color: darkcyan;
+}
+.f8 a:hover {
+    transition: 0.5s;
+    color: red;
+}
+.sec3 {
+    width: auto;
+    height: 400px;
+    display: grid;
+    grid-template-rows: 250px 200px;
+    justify-items: center;
+}
+.f14{
+    display: grid;
+    grid-template-rows: 100px 100px;
+}
+.f15, .f20{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.f16, .f17, .f18, .f19, .f21, .f22, .f23, .f24{
+    background: green;
+    width: 200px;
+    height: 90px;
+    border-radius: 50px 50px;
+}
+.f16 a{
+    text-decoration: none;
+    color: black;
+}
+.f17 a{
+    text-decoration: none;
+    color: black;
+}
+.f18 a{
+    text-decoration: none;
+    color: black;
+}
+.f19 a{
+    text-decoration: none;
+    color: black;
+}
+.f21 a{
+    text-decoration: none;
+    color: black;
+}
+.f22 a{
+    text-decoration: none;
+    color: black;
+}
+.f23 a{
+    text-decoration: none;
+    color: black;
+}
+.f24 a{
+    text-decoration: none;
+    color: black;
+}
+.f25{
+    justify-items: center;
+    width: 200px;
+    height: 50px;
+    background: green;
+    border-radius: 50px 50px;
+    align-content: center;
+}
+.f25 a{
+    text-decoration: none;
+    color: black;
+}
+.sec4{
+    width: auto;
+    height: 450px;
+    display: grid;
+    grid-template-rows: 150px 300px;
+    background: darkblue;
+}
+.f26{
+    color: white;
+}
+.f27{
+    display: grid;
+    height: 250px;
+    grid-template-columns: 450px 450px 400px;
+    justify-content: center;
+}
+.f28{
+    width: 300px;
+    height: 250px;
+    background: lightblue;
+    border-radius: 50px 50px;
+    align-content: center;
+}
+.f29{
+    width: 300px;
+    height: 250px;
+    background: lightblue;
+    border-radius: 50px 50px;
+    align-content: center;
+}
+.f30{
+    width: 300px;
+    height: 250px;
+    background: lightblue;
+    border-radius: 50px 50px;
+    align-content: center;
+}
+.f28 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px 50px;
+}
+.f29 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px 50px;
+}
+.f30 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px 50px;
+}
+.footer {
+    width: auto;
+    height: 200px;
+    background: skyblue;
+    align-items: center;
+}
+
+.foot2 {
+    width: auto;
+    
+}
+.foot1 {
+    width: 700px;
+    height: 200px;
+    background: skyblue;
+    display: grid;
+    grid-template-columns: 400px 400px 200px;
+}
+
+.f41 ul {
+    list-style-type: none;
+    grid-auto-rows: 100px;
+}
+.f41 li{
+    margin-bottom: 20px;
+}
+.f42 ul {
+    list-style-type: none;
+    grid-auto-rows: 100px;
+}
+.f42 li {
+    margin-bottom: 20px;
+}
+
+.f43 h1 {
+    color: black;
+}
+
+.f44 {
+    text-align: center;
+    height: 50px;
+    font-size: 25pt;
+    color: darkmagenta;
+    background: rgb(209, 231, 12);
+}
+.login-btn{
+    background: #ff6600;
+    color:black;
+    padding: 8px 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.login-btn:hover{
+    background: #08e600;
+}

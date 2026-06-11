@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head {
+            width: auto;
+            height: 100px;
+            background: lightblue;
+            display: grid;
+            grid-template-columns: auto 500px 500px;
+            align-items: center;
+        }
+        .head img {
+            width: 100px;
+            height: 100px;
+            margin-top: -1px;
+            border-radius: 500px;
+            object-fit: cover;
+        }
+        .head ul {
+            display: flex;
+            gap: 50px;
+            list-style-type: none;
+        }
+        .head a {
+            text-decoration: none;
+            color: darkmagenta;
+        }
+        .head a:hover {
+            transition: 0.5s;
+            color: chartreuse;
+        }
+        .head src {
+            width: 50px;
+            height: 50px;
+        }
+        .g1 {
+            display: grid;
+            grid-template-rows: 350px 350px 350px 350px 350px 350px;
+            row-gap: 50px;
+            margin-top: 50px;
+        }
+        .g2 {
+            display: grid;
+            grid-template-columns: 300px 300px 300px 300px;
+            gap: 20px;
+        }
+        .g3 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g4 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g5 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g6 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g8 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g9 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g10 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g11 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g13 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g14 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g15 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g16 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g18 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g19 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g20 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g21 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g23 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g24 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g25 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g26 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g28 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g29 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g30 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g31 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g7 {
+            display: grid;
+            grid-template-columns: 300px 300px 300px 300px;
+            gap: 20px;
+        }
+        .g12 {
+            display: grid;
+            grid-template-columns: 300px 300px 300px 300px;
+            gap: 20px;
+        }
+        .g17 {
+            display: grid;
+            grid-template-columns: 300px 300px 300px 300px;
+            gap: 20px;
+        }
+        .g22 {
+            display: grid;
+            grid-template-columns: 300px 300px 300px 300px;
+            gap: 20px;
+        }
+        .g27 {
+            display: grid;
+            grid-template-columns: 300px 300px 300px 300px;
+            gap: 20px;
+        }
+        .g3 img{
+            height: 150px;
+            border-radius: 20px;
+        }
+        .g4 img{
+            height: 150px;
+            border-radius: 20px;
+        }
+        .g5 img{
+            height: 150px;
+            border-radius: 20px;
+        }
+        .g6 img{
+            height: 150px;
+            border-radius: 20px;
+        }
+        .g8 img{
+            height: 150px;
+            border-radius: 20px;
+        }
+        .g9 img{
+            height: 150px;
+            border-radius: 20px;
+        }
+        .g10 img{
+            height: 150px;
+            border-radius: 20px;
+        }
+        .g11 img{
+            height: 150px;
+            border-radius: 20px;
+        }
+        .g13 img{
+            height: 150px;
+            border-radius: 20px;
+        }
+        .g14 img{
+            height: 150px;
+            border-radius: 20px;
+        }
+        .g15 img{
+            height: 150px;
+            border-radius: 20px;
+        }
+        .g16 img{
+            height: 150px;
+            border-radius: 20px;
+        }
+        .g18 img{
+            height: 150px;
+            border-radius: 20px;
+        }
+        .g19 img{
+            height: 150px;
+            border-radius: 20px;
+        }
+        .g20 img{
+            height: 150px;
+            border-radius: 20px;
+        }
+        .g21 img{
+            height: 150px;
+            border-radius: 20px;
+        }
+        .g23 img{
+            height: 150px;
+            border-radius: 20px;
+        }
+        .g24 img{
+            height: 150px;
+            border-radius: 20px;
+        } 
+        .g25 img{
+            height: 150px;
+            border-radius: 20px;
+        }
+        .g26 img{
+            height: 150px;
+            border-radius: 20px;
+        }
+        .g28 img{
+            height: 150px;
+            border-radius: 20px;
+        }
+        .g29 img{
+            height: 150px;
+            border-radius: 20px;
+        }
+        .g30 img{
+            height: 150px;
+            border-radius: 20px;
+        }
+        .g31 img{
+            height: 150px;
+            border-radius: 20px;
+        }
+        .g3,
+        .g4,
+        .g5,
+        .g6,
+        .g8,
+        .g9,
+        .g10,
+        .g11,
+        .g13,
+        .g14,
+        .g15,
+        .g16,
+        .g18,
+        .g19,
+        .g20,
+        .g21, .g23, .g24, .g25, .g26, .g28, .g29, .g30, .g31{
+            background: antiquewhite;
+            border-radius: 100px 100px;
+            align-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="head">
+        <img src="img/sundar.jpeg">
+        <h1>SUNDAR RESTAURANT</h1>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="search.html">Seacrh</a></li>
+            <li><a href="addcart.html">Add Cart</a></li>
+            <li><a href="">Your Order</a></li>
+        </ul>
+    </header>
+    <div class="g1">
+        <div class="g2">
+            <div class="g3">
+                <center><img src="img/blackcurrant.jpeg">
+                    <h3>Blackcurrant</h3>
+                    <h3>₹25</h3>
+                    <a href="addcart.html"><h2>Add Cart</h2></a>
+                    <a href="order.html"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g4">
+                <center><img src="img/butterscotch.jpeg">
+                    <h3>Butterscotch</h3>
+                    <h3>₹15</h3>
+                    <a href="addcart.html"><h2>Add Cart</h2></a>
+                    <a href="order.html"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g5">
+                <center><img src="img/caramel.jpeg">
+                    <h3>Caramel</h3>
+                    <h3>₹20</h3>
+                    <a href="addcart.html"><h2>Add Cart</h2></a>
+                    <a href="order.html"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g6">
+                <center><img src="img/chocolate chip.jpeg">
+                    <h3>Chocolate Chip</h3>
+                    <h3>₹30</h3>
+                    <a href="addcart.html"><h2>Add Cart</h2></a>
+                    <a href="order.html"><h2>Order Now</h2></a>
+                </center>
+            </div>
+        </div>
+        <div class="g7">
+            <div class="g8">
+                <center><img src="img/chocolate cup.jpeg">
+                    <h3>Chocolate Cup</h3>
+                    <h3>₹15</h3>
+                    <a href="addcart.html"><h2>Add Cart</h2></a>
+                    <a href="order.html"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g9">
+                <center><img src="img/chocolate .jpeg">
+                    <h3>Chocolate</h3>
+                    <h3>₹20</h3>
+                    <a href="addcart.html"><h2>Add Cart</h2></a>
+                    <a href="order.html"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g10">
+                <center><img src="img/ice cream-1.jpeg">
+                    <h3>Ice Cream</h3>
+                    <h3>₹25</h3>
+                    <a href="addcart.html"><h2>Add Cart</h2></a>
+                    <a href="order.html"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g11">
+                <center><img src="img/litchi.jpeg">
+                    <h3>Litchi</h3>
+                    <h3>₹25</h3>
+                    <a href="addcart.html"><h2>Add Cart</h2></a>
+                    <a href="order.html"><h2>Order Now</h2></a>
+                </center>
+            </div>
+        </div>
+        <div class="g12">
+            <div class="g13">
+                <center><img src="img/rapbon.jpeg">
+                    <h3>Rapbon</h3>
+                    <h3>₹15</h3>
+                    <a href="addcart.html"><h2>Add Cart</h2></a>
+                    <a href="order.html"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g14">
+                <center><img src="img/raspberry.jpeg">
+                    <h3>Raspberry</h3>
+                    <h3>₹25</h3>
+                    <a href="addcart.html"><h2>Add Cart</h2></a>
+                    <a href="order.html"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g15">
+                <center><img src="img/cookies & cream.jpeg">
+                    <h3>Cookies & Cream</h3>
+                    <h3>₹15</h3>
+                    <a href="addcart.html"><h2>Add Cart</h2></a>
+                    <a href="order.html"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g16">
+                <center><img src="img/orange cup.jpeg">
+                    <h3>Orange Cup</h3>
+                    <h3>₹25</h3>
+                    <a href="addcart.html"><h2>Add Cart</h2></a>
+                    <a href="order.html"><h2>Order Now</h2></a>
+                </center>
+            </div>
+        </div>
+        <div class="g17">
+            <div class="g18">
+                <center><img src="img/orange.jpeg">
+                    <h3>Orange</h3>
+                    <h3>₹30</h3>
+                    <a href="addcart.html"><h2>Add Cart</h2></a>
+                    <a href="order.html"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g19">
+                <center><img src="img/strawberry .jpeg">
+                    <h3>Strawberry</h3>
+                    <h3>₹30</h3>
+                    <a href="addcart.html"><h2>Add Cart</h2></a>
+                    <a href="order.html"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g20">
+                <center><img src="img/strawberry cup.jpeg">
+                    <h3>Strawberry Cup</h3>
+                    <h3>₹25</h3>
+                    <a href="addcart.html"><h2>Add Cart</h2></a>
+                    <a href="order.html"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g21">
+                <center><img src="img/strawberry shortcake.jpeg">
+                    <h3>Strawberry Shortcake</h3>
+                    <h3>₹15</h3>
+                    <a href="addcart.html"><h2>Add Cart</h2></a>
+                    <a href="order.html"><h2>Order Now</h2></a>
+                </center>
+            </div>
+        </div>
+         <div class="g22">
+            <div class="g23">
+                <center><img src="img/lemon sorbet.jpeg">
+                    <h3>Lemon Sorbet</h3>
+                    <h3>₹30</h3>
+                    <a href="addcart.html"><h2>Add Cart</h2></a>
+                    <a href="order.html"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g24">
+                <center><img src="img/gelato.jpeg">
+                    <h3>Gelato</h3>
+                    <h3>₹30</h3>
+                    <a href="addcart.html"><h2>Add Cart</h2></a>
+                    <a href="order.html"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g25">
+                <center><img src="img/mango cup.jpeg">
+                    <h3>Mango</h3>
+                    <h3>₹25</h3>
+                    <a href="addcart.html"><h2>Add Cart</h2></a>
+                    <a href="order.html"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g26">
+                <center><img src="img/mint chip.jpeg">
+                    <h3>Mint Chip</h3>
+                    <h3>₹15</h3>
+                    <a href="addcart.html"><h2>Add Cart</h2></a>
+                    <a href="order.html"><h2>Order Now</h2></a>
+                </center>
+            </div>
+        </div>
+        <div class="g27">
+            <div class="g28">
+                <center><img src="img/pistachio.jpeg">
+                    <h3>Pistachio</h3>
+                    <h3>₹30</h3>
+                    <a href="addcart.html"><h2>Add Cart</h2></a>
+                    <a href="order.html"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g29">
+                <center><img src="img/frozen yogurt.jpeg">
+                    <h3>Frozen Yogurt</h3>
+                    <h3>₹30</h3>
+                    <a href="addcart.html"><h2>Add Cart</h2></a>
+                    <a href="order.html"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g30">
+                <center><img src="img/vanilla cup.jpeg">
+                    <h3>Vanilla Cup</h3>
+                    <h3>₹25</h3>
+                    <a href="addcart.html"><h2>Add Cart</h2></a>
+                    <a href="order.html"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g31">
+                <center><img src="img/vanilla.jpeg">
+                    <h3>Vanilla</h3>
+                    <h3>₹15</h3>
+                    <a href="addcart.html"><h2>Add Cart</h2></a>
+                    <a href="order.html"><h2>Order Now</h2></a>
+                </center>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

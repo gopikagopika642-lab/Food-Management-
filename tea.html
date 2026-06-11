@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head {
+            width: auto;
+            height: 100px;
+            background: lightblue;
+            display: grid;
+            grid-template-columns: auto 500px 500px;
+            align-items: center;
+        }
+        .head img {
+            width: 100px;
+            height: 100px;
+            margin-top: -1px;
+            border-radius: 500px;
+            object-fit: cover;
+        }
+        .head ul {
+            display: flex;
+            gap: 50px;
+            list-style-type: none;
+        }
+        .head a {
+            text-decoration: none;
+            color: darkmagenta;
+        }
+        .head a:hover {
+            transition: 0.5s;
+            color: chartreuse;
+        }
+        .head src {
+            width: 50px;
+            height: 50px;
+        }
+        .g1 {
+            display: grid;
+            grid-template-rows: 350px 350px 350px 350px;
+            row-gap: 50px;
+            margin-top: 50px;
+        }
+        .g2 {
+            display: grid;
+            grid-template-columns: 300px 300px 300px 300px;
+            gap: 20px;
+        }
+        .g3 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g4 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g5 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g6 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g8 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g9 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g10 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g11 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g13 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g14 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g15 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g16 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g18 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g19 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g20 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g21 a {
+            text-decoration: none;
+            color: rgb(218, 10, 41);
+        }
+        .g7 {
+            display: grid;
+            grid-template-columns: 300px 300px 300px 300px;
+            gap: 20px;
+        }
+        .g12 {
+            display: grid;
+            grid-template-columns: 300px 300px 300px 300px;
+            gap: 20px;
+        }
+        .g17 {
+            display: grid;
+            grid-template-columns: 300px 300px 300px 300px;
+            gap: 20px;
+        }
+        .g3,
+        .g4,
+        .g5,
+        .g6,
+        .g8,
+        .g9,
+        .g10,
+        .g11,
+        .g13,
+        .g14,
+        .g15,
+        .g16,
+        .g18,
+        .g19,
+        .g20,
+        .g21 {
+            background: antiquewhite;
+            border-radius: 100px 100px;
+            align-content: center;
+        }
+        .g3 img{
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+        .g4 img{
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+        .g5 img{
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+        .g6 img{
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+        .g8 img{
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+        .g9 img{
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+        .g10 img{
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+        .g11 img{
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+        .g13 img{
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+        .g14 img{
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+        .g15 img{
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+        .g16 img{
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+        .g18 img{
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+        .g19 img{
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+        .g20 img{
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+        .g21 img{
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="head">
+        <img src="img/sundar.jpeg">
+        <h1>SUNDAR RESTAURANT</h1>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="search.html">Seacrh</a></li>
+            <li><a href="addcart.html">Add Cart</a></li>
+            <li><a href="order.html">Your Order</a></li>
+        </ul>
+    </header>
+    <div class="g1">
+        <div class="g2">
+            <div class="g3">
+                <center><img src="img/adark(ginger)chai.jpeg">
+                    <h3>Adark(Ginger)Chai</h3>
+                    <h3>₹25</h3>
+                    <a href="addcart.html" onclick="localStorage.setItem('foodName','Adark(Ginger)Chai'); localStorage.setItem('price','15'); localStorage.setItem('image','img/adark(ginger)chai.jpeg');"><h2>Add Cart</h2></a>
+                    <a href="order.html" onclick="localStorage.setItem('foodName','Adark(Ginger)Chai'); localStorage.setItem('price','15'); localStorage.setItem('image','img/adark(ginger)chai.jpeg');"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g4">
+                <center><img src="img/black tea.jpeg">
+                    <h3>Black Tea</h3>
+                    <h3>₹15</h3>
+                    <a href="addcart.html" onclick="localStorage.setItem('foodName','Black Tea'); localStorage.setItem('price','15'); localStorage.setItem('image','img/black tea.jpeg');"><h2>Add Cart</h2></a>
+                    <a href="order.html" onclick="localStorage.setItem('foodName','Black Tea'); localStorage.setItem('price','15'); localStorage.setItem('image','img/black tea.jpeg');"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g5">
+                <center><img src="img/chocolate chai.jpeg">
+                    <h3>Chocolate Chai</h3>
+                    <h3>₹20</h3>
+                    <a href="addcart.html" onclick="localStorage.setItem('foodName','Chocolate Chai'); localStorage.setItem('price','20'); localStorage.setItem('image','img/chocolate chai.jpeg');"><h2>Add Cart</h2></a>
+                    <a href="order.html" onclick="localStorage.setItem('foodName','Chocolate Chai'); localStorage.setItem('price','20'); localStorage.setItem('image','img/chocolate chai.jpeg');"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g6">
+                <center><img src="img/cutting chai(mumbai).jpeg">
+                    <h3>Cutting Chai(Mumbai)</h3>
+                    <h3>₹30</h3>
+                    <a href="addcart.html" onclick="localStorage.setItem('foodName','Cutting Chai(Mumbai)'); localStorage.setItem('price','30'); localStorage.setItem('image','img/cutting chai(mumbai).jpeg');"><h2>Add Cart</h2></a>
+                    <a href="order.html" onclick="localStorage.setItem('foodName','Cutting Chai(Mumbai)'); localStorage.setItem('price','30'); localStorage.setItem('image','img/cutting chai(mumbai).jpeg');"><h2>Order Now</h2></a>
+                </center>
+            </div>
+        </div>
+        <div class="g7">
+            <div class="g8">
+                <center><img src="img/elaichi(cardamom).jpeg">
+                    <h3>Elaichi(Cardamom)</h3>
+                    <h3>₹15</h3>
+                    <a href="addcart.html" onclick="localStorage.setItem('foodName','Elaichi(cardamom)'); localStorage.setItem('price','15'); localStorage.setItem('image','img/elaichi(cardamom).jpeg');"><h2>Add Cart</h2></a>
+                    <a href="order.html" onclick="localStorage.setItem('foodName','Elaichi(cardamom)'); localStorage.setItem('price','15'); localStorage.setItem('image','img/elaichi(cardamom).jpeg');"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g9">
+                <center><img src="img/green tea.jpeg">
+                    <h3>Green Tea</h3>
+                    <h3>₹20</h3>
+                    <a href="addcart.html" onclick="localStorage.setItem('foodName','Green Tea'); localStorage.setItem('price','20'); localStorage.setItem('image','img/green tea.jpeg');"><h2>Add Cart</h2></a>
+                    <a href="order.html" onclick="localStorage.setItem('foodName','Green Tea'); localStorage.setItem('price','20'); localStorage.setItem('image','img/green tea.jpeg');"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g10">
+                <center><img src="img/herbal tea.jpeg">
+                    <h3>Herbal Tea</h3>
+                    <h3>₹25</h3>
+                    <a href="addcart.html" onclick="localStorage.setItem('foodName','Herbal Tea'); localStorage.setItem('price','25'); localStorage.setItem('image','img/herbal tea.jpeg');"><h2>Add Cart</h2></a>
+                    <a href="order.html" onclick="localStorage.setItem('foodName','Herbal Tea'); localStorage.setItem('price','25'); localStorage.setItem('image','img/herbal tea.jpeg');"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g11">
+                <center><img src="img/hibiscus tea.jpeg">
+                    <h3>Hibiscus Tea</h3>
+                    <h3>₹25</h3>
+                    <a href="addcart.html" onclick="localStorage.setItem('foodName','Hibiscus Tea'); localStorage.setItem('price','25'); localStorage.setItem('image','img/hibiscus tea.jpeg');"><h2>Add Cart</h2></a>
+                    <a href="order.html" onclick="localStorage.setItem('foodName','Hibiscus Tea'); localStorage.setItem('price','25'); localStorage.setItem('image','img/hibiscus tea.jpeg');"><h2>Order Now</h2></a>
+                </center>
+            </div>
+        </div>
+        <div class="g12">
+            <div class="g13">
+                <center><img src="img/jaggery chai.jpeg">
+                    <h3>Jaggery Chai</h3>
+                    <h3>₹15</h3>
+                    <a href="addcart.html" onclick="localStorage.setItem('foodName','Jaggery Chai'); localStorage.setItem('price','15'); localStorage.setItem('image','img/jaggery chai.jpeg');"><h2>Add Cart</h2></a>
+                    <a href="order.html" onclick="localStorage.setItem('foodName','Jaggery Chai'); localStorage.setItem('price','15'); localStorage.setItem('image','img/jaggery chai.jpeg');"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g14">
+                <center><img src="img/lemon tea.jpeg">
+                    <h3>Lemon Tea</h3>
+                    <h3>₹25</h3>
+                    <a href="addcart.html" onclick="localStorage.setItem('foodName','Lemon Tea'); localStorage.setItem('price','25'); localStorage.setItem('image','img/lemon tea.jpeg');"><h2>Add Cart</h2></a>
+                    <a href="order.html" onclick="localStorage.setItem('foodName','Lemon Tea'); localStorage.setItem('price','25'); localStorage.setItem('image','img/lemon tea.jpeg');"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g15">
+                <center><img src="img/masala chai.jpeg">
+                    <h3>Masala Chai</h3>
+                    <h3>₹15</h3>
+                    <a href="addcart.html" onclick="localStorage.setItem('foodName','Masala Chai'); localStorage.setItem('price','15'); localStorage.setItem('image','img/masala chai.jpeg');"><h2>Add Cart</h2></a>
+                    <a href="order.html" onclick="localStorage.setItem('foodName','Masala Chai'); localStorage.setItem('price','15'); localStorage.setItem('image','img/masala chai.jpeg');"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g16">
+                <center><img src="img/mint tea.jpeg">
+                    <h3>Mint Tea</h3>
+                    <h3>₹25</h3>
+                    <a href="addcart.html" onclick="localStorage.setItem('foodName','Mint Tea'); localStorage.setItem('price','25'); localStorage.setItem('image','img/mint tea.jpeg')"><h2>Add Cart</h2></a>
+                    <a href="order.html" onclick="localStorage.setItem('foodName','Mint Tea'); localStorage.setItem('price','25'); localStorage.setItem('image','img/mint tea.jpeg')"><h2>Order Now</h2></a>
+                </center>
+            </div>
+        </div>
+        <div class="g17">
+            <div class="g18">
+                <center><img src="img/noon chai(pink tea).jpeg">
+                    <h3>Noon Chai(Pink Tea)</h3>
+                    <h3>₹30</h3>
+                    <a href="addcart.html" onclick="localStorage.setItem('foodName','Noon Chai(Pink Tea)'); localStorage.setItem('price','30'); localStorage.setItem('image','img/noon chai(pink tea).jpeg')"><h2>Add Cart</h2></a>
+                    <a href="order.html" onclick="localStorage.setItem('foodName','Noon Chai(Pink Tea)'); localStorage.setItem('price','30'); localStorage.setItem('image','img/noon chai(pink tea).jpeg')"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g19">
+                <center><img src="img/rose chai.jpeg">
+                    <h3>Rose Chai</h3>
+                    <h3>₹30</h3>
+                    <a href="addcart.html" onclick="localStorage.setItem('foodName','Rose Chai'); localStorage.setItem('price','30'); localStorage.setItem('image','img/rose chai.jpeg')"><h2>Add Cart</h2></a>
+                    <a href="order.html" onclick="localStorage.setItem('foodName','Rose Chai'); localStorage.setItem('price','30'); localStorage.setItem('image','img/rose chai.jpeg')"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g20">
+                <center><img src="img/sulaimani chai.jpeg">
+                    <h3>Sulaimani Chai</h3>
+                    <h3>₹25</h3>
+                    <a href="addcart.html" onclick="localStorage.setItem('foodName','Sulaimani Chai'); localStorage.setItem('price','25'); localStorage.setItem('image','img/sulaimani chai.jpeg')"><h2>Add Cart</h2></a>
+                    <a href="order.html" onclick="localStorage.setItem('foodName','Sulaimani Chai'); localStorage.setItem('price','25'); localStorage.setItem('image','img/sulaimani chai.jpeg')"><h2>Order Now</h2></a>
+                </center>
+            </div>
+            <div class="g21">
+                <center><img src="img/chamomile tea.jpeg">
+                    <h3>Chamomile Tea</h3>
+                    <h3>₹15</h3>
+                    <a href="addcart.html" onclick="localStorage.setItem('foodName','Chamomile Tea'); localStorage.setItem('price','15'); localStorage.setItem('image','img/chamomile tea.jpeg')"><h2>Add Cart</h2></a>
+                    <a href="order.html" onclick="localStorage.setItem('foodName','Chamomile Tea'); localStorage.setItem('price','15'); localStorage.setItem('image','img/chamomile tea.jpeg')"><h2>Order Now</h2></a>
+                </center>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

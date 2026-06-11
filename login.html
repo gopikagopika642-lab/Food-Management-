@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sundar Restaurant Login</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: Arial, sans-serif;
+            }
+            body{
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .login-container{
+                width: 350px;
+                background: rgba(255,255,255,0);
+                padding: 30px;
+                border-radius: 15px;
+                box-shadow: 0 0 15px rgba(0,0,0,0,3);
+                text-align: center;
+            }
+            .logo{
+                font-size: 32px;
+                color: #d35400;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            .tagline{
+                color: #555;
+                margin-bottom: 20px;
+            }
+            input{
+                width: 100%;
+                padding: 12px;
+                margin: 10px 0;
+                border: 1px solid #ccc;
+                border-radius: 8px;
+            }
+            button{
+                width: 100%;
+                padding: 12px;
+                background: #d35400;
+                color: white;
+                border: none;
+                border-radius: 8px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+            button:hover{
+                background: #a04000;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            .links{
+                margin-top: 15px;
+            }
+            h5{
+                justify-content: flex-start;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="login-container">
+            <div class="logo">SUNDAR RESTAURANT</div>
+            <p class="tagline">Delicious . Tasty . Authentic Food</p>
+            <form>
+                <h5>Customer Name:</h5>
+                <input type="text" placeholder="Username" required>
+                <h5>Password:</h5>
+                <input type="password" placeholder="Password" required>
+                <button type="submit"><a href="food.html">Login</a></button>
+            </form>
+            <div class="links">
+                <p><a href="#">Forgot Password?</a></p>
+                <p>New Customer?<a href="#">Register Now</a></p>
+            </div>
+        </div>
+    </body>
+</html>
